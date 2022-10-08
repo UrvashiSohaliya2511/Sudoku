@@ -29,10 +29,12 @@ export const InputFill = ({ e, i, j }) => {
   };
 
   const handleChange = (e, row, col) => {
-    console.log(e.target.value);
     let ans = check(board, row, col, +e.target.value);
     let temp = board;
+    const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    // if ( nums.indexOf( +e.target.value ) >= 0 ) {
 
+    // };
     temp[row][col] = +e.target.value;
     setboard(temp);
 
