@@ -28,6 +28,7 @@ alt="sudoku"/>
 # TechStack used:
 - React
 - Javascript
+- HTML
 - CSS
 
 
