@@ -11,9 +11,31 @@ body {
   /* gap: 1%; */
   height: 400px;
   width: 400px;
+  max-width: 100%;
   margin: auto;
+  margin-top: 1%;
+}
+.disabled {
+  background-color: black;
 }
 
+.won {
+  position: fixed;
+  left: 40%;
+  top: 33vh;
+  font-size: 260px;
+  transform: rotate(0deg);
+  animation: rotate-vertical 5s ease-out infinite;
+  color: #4ca048;
+}
+@keyframes rotate-vertical {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
 button {
   background-color: #4ca048;
   color: white;
