@@ -1,4 +1,4 @@
-# Mini-Sudoku_Game
+# 🧩 Mini-Sudoku_Game <a href = "https://sudoku-psi.vercel.app/">↗️</a>
 <Img src="https://user-images.githubusercontent.com/105914437/194713169-6eba0cde-631f-4b36-9ec8-2c0d8ace19cf.png"
 alt="sudoku"/>
 
