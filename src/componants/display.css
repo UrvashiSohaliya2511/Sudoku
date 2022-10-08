@@ -1,0 +1,126 @@
+body {
+  background-color: black;
+  color: white;
+}
+.display {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  align-items: center;
+  justify-content: center;
+  /* gap: 1%; */
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+button {
+  background-color: #4ca048;
+  color: white;
+  padding: 1%;
+  font-weight: bold;
+  margin: 2%;
+  margin-top: 0%;
+  border-radius: 5%;
+}
+
+input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #4ca048;
+}
+.display input:nth-child(1),
+input:nth-child(2),
+input:nth-child(3),
+input:nth-child(4),
+input:nth-child(5),
+input:nth-child(6),
+input:nth-child(7),
+input:nth-child(8),
+input:nth-child(9),
+input:nth-child(28),
+input:nth-child(29),
+input:nth-child(30),
+input:nth-child(31),
+input:nth-child(32),
+input:nth-child(33),
+input:nth-child(34),
+input:nth-child(35),
+input:nth-child(36),
+input:nth-child(55),
+input:nth-child(56),
+input:nth-child(57),
+input:nth-child(58),
+input:nth-child(59),
+input:nth-child(60),
+input:nth-child(61),
+input:nth-child(62),
+input:nth-child(63) {
+  border-top: 2px solid #4ca048;
+}
+.display input:nth-child(73),
+input:nth-child(74),
+input:nth-child(75),
+input:nth-child(76),
+input:nth-child(77),
+input:nth-child(78),
+input:nth-child(79),
+input:nth-child(80),
+input:nth-child(81) {
+  border-bottom: 2px solid #4ca048;
+}
+.display input:nth-child(1),
+input:nth-child(4),
+input:nth-child(7),
+input:nth-child(10),
+input:nth-child(13),
+input:nth-child(16),
+input:nth-child(19),
+input:nth-child(22),
+input:nth-child(25),
+input:nth-child(28),
+input:nth-child(31),
+input:nth-child(34),
+input:nth-child(37),
+input:nth-child(40),
+input:nth-child(43),
+input:nth-child(46),
+input:nth-child(49),
+input:nth-child(52),
+input:nth-child(55),
+input:nth-child(58),
+input:nth-child(61),
+input:nth-child(64),
+input:nth-child(67),
+input:nth-child(70),
+input:nth-child(73),
+input:nth-child(76),
+input:nth-child(79) {
+  border-left: 2px solid #4ca048;
+}
+.display input:nth-child(9),
+input:nth-child(18),
+input:nth-child(27),
+input:nth-child(36),
+input:nth-child(45),
+input:nth-child(54),
+input:nth-child(63),
+input:nth-child(72),
+input:nth-child(81) {
+  border-right: 2px solid #4ca048;
+}
+
+input {
+  font-size: 22px;
+  text-align: center;
+}
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Firefox */
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
